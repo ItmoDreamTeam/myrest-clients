@@ -8,3 +8,13 @@ jobs:
         with:
           java-version: 11
       - run: ./gradlew build -i
+      - uses: actions/upload-artifact@v2
+        with:
+          name: shared
+          path: |
+            shared/build/outputs/aar/
+            shared/build/xcode-frameworks/
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Android
+          path: androidApp/build/outputs/apk/
