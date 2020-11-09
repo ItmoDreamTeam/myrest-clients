@@ -1,4 +1,4 @@
-package org.itmodreamteam.androidApp
+package org.itmodreamteam.myrest.clients.android
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

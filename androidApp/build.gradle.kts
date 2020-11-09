@@ -22,7 +22,7 @@ dependencies {
 android {
     compileSdkVersion(29)
     defaultConfig {
-        applicationId = "org.itmodreamteam.androidApp"
+        applicationId = "org.itmodreamteam.myrest.clients.android"
         minSdkVersion(24)
         targetSdkVersion(29)
         versionCode = 1
