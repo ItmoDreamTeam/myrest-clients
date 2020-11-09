@@ -14,7 +14,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation(project(":shared"))
+    implementation(project(":clientsShared"))
     implementation("androidx.core:core-ktx:1.2.0")
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")

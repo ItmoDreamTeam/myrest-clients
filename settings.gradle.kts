@@ -16,6 +16,6 @@ pluginManagement {
 rootProject.name = "myrest-clients"
 
 
-include(":shared")
+include(":clientsShared")
 include(":androidApp")
 
