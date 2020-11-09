@@ -10,7 +10,8 @@ buildscript {
         classpath("com.android.tools.build:gradle:4.0.0")
     }
 }
-group = "org.itmodreamteam"
+
+group = "org.itmodreamteam.myrest"
 version = "1.0-SNAPSHOT"
 
 repositories {

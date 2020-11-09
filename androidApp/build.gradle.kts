@@ -3,7 +3,8 @@ plugins {
     kotlin("android")
     id("kotlin-android-extensions")
 }
-group = "org.itmodreamteam"
+
+group = "org.itmodreamteam.myrest"
 version = "1.0-SNAPSHOT"
 
 repositories {
